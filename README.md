@@ -53,9 +53,15 @@ zip file used: https://storage.googleapis.com/tensorflow/tf-keras-datasets/jena_
 
 ## For google colab users
 Dataset can be directly imported without downloading. Follow the steps below:
+
 ! pip install kaggle
+
 ! mkdir ~/.kaggle
+
 ! cp kaggle.json ~/.kaggle/
+
 ! chmod 600 ~/.kaggle/kaggle.json
+
 ! kaggle datasets download <data name>  #Eg: for google stock prediction use ! kaggle datasets download mczielinski/bitcoin-historical-data
+  
 ! unzip <Enter_zip_filename_from_the_output_of_the_above_code>  #Eg: ! unzip googledta.zip
