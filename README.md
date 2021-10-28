@@ -49,6 +49,7 @@ Unlike regression predictive modeling, time series also adds the complexity of a
 A powerful type of neural network designed to handle sequence dependence is called recurrent neural networks. The Long Short-Term Memory network or LSTM network is a type of recurrent neural network used in deep learning because very large architectures can be successfully trained.
 LSTM networks in Python using the Keras deep learning library is developed to address a demonstration time-series prediction problem.
 
+zip file used: https://storage.googleapis.com/tensorflow/tf-keras-datasets/jena_climate_2009_2016.csv.zip 
 
 ## For google colab users
 Dataset can be directly imported without downloading. Follow the steps below:
