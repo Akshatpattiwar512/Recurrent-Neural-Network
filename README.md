@@ -30,11 +30,13 @@ Dataset taken from kaggle: https://www.kaggle.com/mczielinski/bitcoin-historical
 RNNs can recall inputs for a long time because of LSTMs. This is due to the fact that LSTMs store information in a memory, similar to a computer's memory. The LSTM has the ability to read, write, and erase data from its memory.An LSTM has three gates: input, forget, and output. These gates decide whether to allow fresh input (input gate), discard the information because it isn't relevant (forget gate), or let it affect the output at the current timestep (output gate).
 Trend of energy consumption is used for predicting 
 Hourly data is used 
+
 Dataset taken from kaggle: https://www.kaggle.com/robikscube/hourly-energy-consumption
 
 
 ## Google_stock_price_prediction_RNN
 Predicting stocks of google on the basis of previous stock data available
+
 Dataset link: https://www.kaggle.com/ptheru/googledta
 
 
