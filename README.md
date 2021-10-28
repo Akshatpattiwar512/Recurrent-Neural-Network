@@ -17,6 +17,7 @@ Using RNN- Future bitcoin prediction is made from the available data
 
 Dataset taken from kaggle: https://www.kaggle.com/mczielinski/bitcoin-historical-data
 
+
 ## Energy_Consumption_Prediction_using_RNN_and_LTSM
 
 ### LSTM
@@ -24,6 +25,7 @@ RNNs can recall inputs for a long time because of LSTMs. This is due to the fact
 Trend of energy consumption is used for predicting 
 Hourly data is used 
 Dataset taken from kaggle: https://www.kaggle.com/robikscube/hourly-energy-consumption
+
 
 ## Google_stock_price_prediction_RNN
 Predicting stocks of google on the basis of previous stock data available
@@ -33,10 +35,12 @@ Dataset link: https://www.kaggle.com/ptheru/googledta
 ## Reber_Grammar_Classification
 In this project, I constructed an RNN to classify whether or not a string matched the embedded Reber Grammar
 
+
 ### ERG-conforming strings
 Ultimately, the data that I feed into this keras-based RNN had to be a matrix numerically representing strings. Each value in the matrix represented the index of a particular character in the reber alphabet BEPSTVX, or it contained a padding character. First, I had to synthetically generate examples of strings that matched the ERG and strings that did not. Sampling from the ERGs was pretty simple: I constructed the grammar as a graph, and as I traversed the graph, whenever I came upon a node with multiple outgoing edges, I simply chose one uniformly randomly until I reached the final node. I discarded any strings that exceeded a max_length (since they all had to fit into a rectangular matrix).
 ### non-ERG-conforming strings
 However, coming up with the strings that didn't match the ERG required an iterative process.
+
 
 ## Time_Series_Forecasting_Using_Recurrent_Neural_Networks(RNN)
 Time series forecasting is the process of making scientific forecasts based on time stamped data from the past. It entails developing models based on previous data and utilising them to make observations and drive future strategic decisions.
@@ -44,6 +48,7 @@ Time series prediction problems are a difficult type of predictive modeling prob
 Unlike regression predictive modeling, time series also adds the complexity of a sequence dependence among the input variables.
 A powerful type of neural network designed to handle sequence dependence is called recurrent neural networks. The Long Short-Term Memory network or LSTM network is a type of recurrent neural network used in deep learning because very large architectures can be successfully trained.
 LSTM networks in Python using the Keras deep learning library is developed to address a demonstration time-series prediction problem.
+
 
 ## For google colab users
 Dataset can be directly imported without downloading. Follow the steps below:
